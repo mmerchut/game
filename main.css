@@ -1,6 +1,29 @@
+#map {
+    width: 1000px;
+    height: 500px;
+    margin: auto;
+    background-color: rgb(231, 226, 226);
+    position: fixed;
+}
+
 .square {
+    position: sticky;
     width: 20px;
     height: 20px;
     /* background-color: black; */
+    z-index: 1;
     
+}
+
+.shop {
+    margin-left: 60px;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    position: fixed;
+}
+
+.dragon {
+    margin-left: 120px;
+    position: fixed;
 }
